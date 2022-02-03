@@ -1,0 +1,29 @@
+docs_list_title: ACME Documentation
+docs:
+
+- title: Home
+  url: /os-website/index
+
+- title: About
+  url: /os-website/aboutus
+
+- title: Documentation
+  url: https://docs.tigase.net/
+
+- title: Download
+  url: /os-website/download
+
+- title: Community
+  url: /os-website/community
+
+#- title: Developers
+#  url: /developer
+
+- title: Donate
+  url: /os-website/donate
+
+- title: Enterprise
+  url: https://tigase.net/
+
+- title: Blog
+  url: /blog

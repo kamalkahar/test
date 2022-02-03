@@ -1,0 +1,106 @@
+﻿#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: Contact
+   
+    sl1:
+     path: assets/images/page-banner/shape-1.png
+    sl2: 
+     path: assets/images/page-banner/shape-2.png
+    sl3: 
+     path: assets/images/page-banner/shape-3.png
+    sl4: 
+     path: assets/images/page-banner/shape-4.png
+     
+    title1: Contact Address&#x3a;
+    
+    heading: Sales
+    
+    
+    phone1: +1 (844) 273-0551
+    pdesc1: Toll free for USA and Canada
+    phone2: +1 (415) 900-4774
+    pdesc2: International
+    
+    heading1: Support for subscribed Customers&#x3a;
+    
+    phone3: +1 (844) 273-0551
+    pdesc3: Toll free for USA and Canada
+    phone4: +1 (415) 900-4774
+    pdesc4: International
+
+    address:  Tigase, Inc.</br>100 Pine Street,</br>1250 San Francisco </br>CA 94111 USA
+
+    facebook: https://www.facebook.com/tigase
+
+    twitter: https://twitter.com/tigase
+     
+    map: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d100892.52723006465!2d-122.39898200000002!3d37.792583!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfb20488d79836c21!2sIntelligent%20Office!5e0!3m2!1sen!2sus!4v1621858979728!5m2!1sen!2sus
+    tab10: Installation
+    tab11: Stun
+    tab12: Turn
+     
+    date2: September 15, 2020
+    
+    heading2:  Using STUN & TURN server with Tigase XMPP Server with XEP-0215 (External Service Discovery)
+
+    sl8:
+     path: assets/images/blog/b4.png
+     
+    tab13: release
+    tab14: beagleim
+    tab15: Siskinim
+    tab16: Mix
+     
+    date3: September 04, 2020
+    
+    heading3:  BeagleIM 4.0 and SiskinIM 6.0 released
+
+    sl9:
+     path: assets/images/blog/b5.png
+     
+    tab17: Client
+    tab18: Library
+    tab19: Halcyon
+    tab20: Kotlin
+     
+    date4: September 02, 2020
+    
+    heading4:  A look at Halcyon
+
+    sl10:
+     path: assets/images/blog/b6.png
+     
+    tab21: Server
+    tab22: Distribution
+    tab23: Docker
+    tab24: Dockerhub
+     
+    date5: September 25, 2020
+    
+    heading5:  Tigase XMPP Server meets Docker
+    sl17:
+     path: assets/images/blog/shape-1.png
+
+    sl18:
+     path: assets/images/blog/shape-2.png
+    
+
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN

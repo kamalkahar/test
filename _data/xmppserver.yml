@@ -1,0 +1,226 @@
+﻿#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: Tigase XMPP Server
+    tdesc: Tigase XMPP Server is a software created to build low cost, large scale communication systems.
+    button: CHECK OUR PRICING
+    text: Contact our Sales team
+
+    sl1:
+     path: assets/images/page-banner/shape-1.png
+    sl2: 
+     path: assets/images/page-banner/shape-2.png
+    sl3: 
+     path: assets/images/page-banner/shape-3.png
+    sl4: 
+     path: assets/images/page-banner/shape-4.png
+
+    tab1: FEATURES
+    tab2: DETAILS
+    tab3: DOWNLOAD
+     
+    headtext: Tigase XMPP Server is our flagship server software writen in Java to build Instant Communication (IC) systems. The most basic explanation is that Tigase is a chat server, but it is so much more than just that.
+
+    sl5: 
+     path: assets/images/server/1.png
+    head: <br/>Always Online
+    desc: The main requirement for a real-time and instant communication is having all parties online all the time. Tigase XMPP Server can handle practically unlimited number of long-lasting concurrent connections from users or devices to the system.
+    sl6: 
+     path: assets/images/server/2.png
+    head1: Presence
+    desc1: XMPP systems keep users and devices connected and online for a long time. Most of the time. This makes them available to receive messages and other data. Until... they are not online. Or perhaps they are online but busy and unavailable. This is what the 'Presence' is about. To keep friends informed who is online, offline, busy, away plus lots of other status information they choose to share like location, mood and more.
+    sl7: 
+     path: assets/images/server/3.png
+    head2: Messaging
+    desc2: XMPP is known for chat systems. Chat means sending and receiving messages, hence 'Messaging' in name. But Tigase is so much more than sending messages, chatting. It's all about communication between people and devices. Chat, team collaboration, documents sharing, real-time diagnostic data collection, remote control and more.
+    sl8: 
+     path: assets/images/server/4.png
+    head3: Mobile Optimizations
+    desc3: XMPP like most other systems were designed in pre-mobile era. By design they are intended for desktop use. Tigase, however, put a lot of effort to add custom optimizations and mechanisms for mobile devices to lower battery usage, stop non-essential network traffic and quickly reconnect devices after connection was lost.
+    sl9: 
+     path: assets/images/server/5.png
+    head4: Push Notifications
+    desc4: In XMPP world everything is always online, until it is not. Mobile world changed everything. Mobile apps are mostly not online. Users are forced to frequently check with the service for updates. Tigase offers Push notifications to notify users about updates without a need to manually recheck with the server. Apple Push and Android Push is supported out of the box.
+    sl10: 
+     path: assets/images/server/6.png
+    head5: Message Forwarding
+    desc5: XMPP is usually the best option for effective communication. However, when, a recipient cannot be reached via XMPP and even Push notification is not an option, Tigase can forward the message through other systems like e-mail, SMS/Text and potentially any other communication system out there.
+    sl11: 
+     path: assets/images/server/7.png
+    head6: Fast Delivery
+    desc6: Messages or any other data have to be delivered fast, instantly, in real-time. Tigase is designed and optimized to have no bottlenecks. Typical message delivery time is under 0.1 second.
+    sl12: 
+     path: assets/images/server/8.png
+    head7: Fault Tolerant
+    desc7: It is nice when everything works just fine and without a glitch. In reality, computer networks and Internet in particular are very unpredictable. There is unlimited ways things can go wrong. Connections interrupted, power failure, hardware failure. But the message can never be lost. Tigase has many fail-safe mechanism built-in to prevent messages loss and deliver them even if something goes wrong.
+    sl13: 
+     path: assets/images/server/9.png
+    head8: Abuse Protection
+    desc8: Internet, nowadays is not a safe place. Network systems are being attacked and abused in many ways. Tigase has built-in mechanisms to effectively handle attacks to keep users safe and protect users' data. Strong password protection, brute force protection, spam protection, DOS attack protection, DDOS attack protection and many other Tigase's mechanisms keep the system up and running and safe.
+    sl14: 
+     path: assets/images/server/10.png
+    head9: Audit Log
+    desc9: Some environments require an additional level of system activity tracking for security and compliance reasons. Tigase offers a built-in Audit-Log mechanism which tracks system activities and stores them in a separate place with an easy to use interface to access the log.
+
+    sl15: 
+     path: assets/images/features/shape-1.png
+    sl16: 
+     path: assets/images/features/shape-2.png
+    sl17: 
+     path: assets/images/services-details/shape-1.png
+    sl18: 
+     path: assets/images/services-details/shape-2.png
+    sl19: 
+     path: assets/images/services-details/shape-3.png
+
+    headtext1: Tigase XMPP Server is Java based software
+    hdesc: Tigase XMPP Server is a standalone application written in Java. It is not a “web server” system. It runs independently from any other software. In most cases all it needs to run is Java Virtual Machine (JVM). For extended functionality it may require a few external libraries for the most part it is all in-house developed software.
+
+    headtext2: Java based but still very efficient
+    hdesc1: Java is known and infamous for it’s high resource requirements and slowness. This unfortunate, bad reputation is a result of early impressions from the first years of Java and also from poorly written, bloated Java monster software. Poorly written and poorly maintained software results in tons of redundand code and overall slagishness.
+
+    hdesc2: There are, however, many Java programs which are good examples how efficient, fast and resources friendly Java code can be. And Tigase XMPP Server is one of these good examples.
+
+    hdesc3: We put a lot of effort to optimize, design it and implement efficient code. Here are some interesting facts&#x3a;
+
+    hdesc4: The main binary code to run Tigase XMPP Server is less then 3MB
+    hdesc5: In some cases it can be run with as little as 10MB of RAM, usable, typical XMPP chat system can be deployed on 50MB of RAM
+    hdesc6: It was successfully tested to handle over 30 millions messages per second
+    hdesc7: It runs on production systems with over 10 million users
+    hdesc8: It runs on production systems processing over 5 millions messages per second
+    hdesc9: Typical message processing time is below 0.01 second if database is not involved
+
+    headtext3: Reliable
+    hdesc10: We frequently put Tigase XMPP Server through very rigorous testing. Running hundreds of automated tests, performance tests and long-lasting reliability tests. This allows us to discover bugs, inconsistencies, bottlenecks, memory leaks and other potential problems in long-running applications.
+
+    hdesc11: Every release is thoroughly tested and verified before publication.
+
+    hdesc12: Tigase XMPP Server is known to run for over 3 years without restart on a production system.
+
+    headtext4: Secure
+    hdesc13: XMPP was designed from ground up to be secure. Tigase, however, does not stop there. We took additional steps to make sure Tigase provides up to date security.
+
+    hdesc14: Through extensive testing, third-party verification, we make sure it is a well written software, resistant to all common attacks, including SQL injection, DOS attacks, man-in-the-middle attacks and many others.
+
+    hdesc15: We closely track changes and developments in the security protocols and make sure Tigase is up to date, uses only safe ciphers and algorithms.
+
+    hdesc16: Additional, hardened mode, turns Tigase into very restrictive configuration, which may break connectivity with older apps and servers, but on the other hand, ensures that security it tightest possible for demanding customers.
+
+    headtext5: Very Scalable
+    hdesc17: Tigase uses resources very efficiently. It can easily handle half a million users on a single server or more. But no matter how efficient the server is and how optimized the software is, there is a limit on how much a single server can handle.
+
+    hdesc18: Therefore, from the very beginning we planned on making Tigase scalable. Out of the box Tigase offers near-linear scalability or exact linear for some use cases.
+
+    hdesc19: It can be deployed on large number of servers over distributed data centers and cloud providers to provide a single logical system for practically unlimited number of online users sending millions of messages per second.
+
+    headtext6: Cloud independent
+    hdesc20: Tigase XMPP Server is Java application and can be deployed on anything that can run Java programs. It does have some special integration features for Amazon AWS cloud system but it can run on any Cloud. Our customers deploy Tigase on Google Cloud, Microsoft Azure cloud and many others and also on in-house dedicated data centers.
+
+    hdesc21: Tigase has a built-in load balancer to better distribute connected users and devices but it can also play nicely with external load balancers which are used on different environments.
+
+    headtext7: Extensible
+    hdesc22: Tigase XMPP Server can be used as it is.
+
+    hdesc23: Out of the box it is capable to provide sufficient functions for typical XMPP systems and in many cases for not so standard XMPP services.
+
+    hdesc24: There are, however, deployments with specific requirements or third-party systems with which Tigase has to integrate. For such cases, Tigase XMPP Server offers exceptional flexibility. Well designed and rich API allows adding custom elements like blocks.
+
+    hdesc25: There is no single line of code in Tigase which is fixed. Anything and everything can be replaced with custom made code and plugged-in through configuration file.
+
+    headtext8: Administrator friendly
+    hdesc26: From our experience we know that starting a complex system is a big challenge. However, even greater challenge is maintaining such a system long-term. Therefore, we have put a lot of effort to make sys ops life easier.
+
+    hdesc27: There is a huge number of tools built-into the Tigase XMPP Server which make maintaining Tigase much simpler than expected&#x3a;
+
+    hdesc28: Command line tool to execute all admin tasks
+    hdesc29: Web UI for admin to see critical system parameters and performance metrics
+    hdesc30: Thousands of runtime performance metrics allow to diagnose system in real-time
+    hdesc31: Built-in self-monitoring system which can send notifications via email or XMPP if it detects problems
+    hdesc32: Detailed diagnostic log can be switched on/off
+    hdesc33: Detailed diagnostic log for a single user can be switched on/off
+    hdesc34: Audit Log
+    hdesc35: Self-fault recovery
+    hdesc36: Automatic cluster reconfiguration
+
+    headtext9: Easy to track performance
+    hdesc37: Proper monitoring is one of key areas we focus during development, testing and maintaining services. Tigase XMPP Server offers thousands of run-time performance metrics, which allow to track the system in real-time.
+
+    hdesc38: Every significant processing unit generates performance metrics, therefore if there is any slow down or a bottleneck it is very easy to diagnose the system, locate the problem and fix it.
+
+    headtext10: Easy to integrate
+    hdesc39: There are many ways to integrate third-party systems with Tigase XMPP Server.
+
+    hdesc40: It has very well thought and rich API which allows to add new components and plugins. These plugins can interact with other systems to exchange information.
+
+    hdesc41: However, Tigase employs a common pattern for so called “Connection Managers” which are responsible for network communication. Each connection manager talks a different protocol and Tigase can easily learn new protocols to connect to virtually any external service to exchange information in real-time.
+
+    hdesc42: Tigase also offer access through REST API which can be easily extended using various scripting languages. This is a powerful feature which allows to add new REST API calls using a programming language of your choice.
+
+    hdesc43: Tigase XMPP Server can be also configured to retrieve users’ data from different databases storing data in different formats. This allows for an easy integration with other systems without writing a single line of code.
+
+    sl26: 
+     path: assets/images/services-details/shape-1.png
+    sl27: 
+     path: assets/images/services-details/shape-2.png
+    sl28: 
+     path: assets/images/services-details/shape-3.png
+
+    headtext11: Tigase XMPP Public and Free Service
+    headtext12: No need to deploy your own. Use a client of your choice to connect to our public service.
+    hdesc44: For quickly trying and testing the Tigase XMPP Server use our public service at addresses&#x3a; xmpp.cloud, tigase.im, sure.im, jabber.today. We recommend to use our apps for iOS, Android and MacOS.
+
+    btn1: xmpp.cloud
+    btn2: tigase.im
+    btn3: jabber.today
+    btn4: sure.im
+
+    headtext13: Tigase XMPP Server
+    headtext14: Latest stable (8.0.0)
+    hdesc45: When you are ready, download our latest Tigase XMPP Server package, install and start using. If you are not ready, do it anyway, we are here to help.
+
+    btn5: Download
+    btn6: Source Code
+    btn7: Install Guide/ Android
+
+    hdesc46: Try our client apps Read more
+    headtext15: SiskIM for iOS
+    headtext16: BeagleIM for MacOS
+    headtext17: StorkIM for Android
+
+    sl20:
+     path: assets/images/support/shape-1.png
+     
+    sl21:
+     path: assets/images/support/shape-2.png
+
+    sl22:
+     path: assets/images/support/shape-3.png
+
+    sl23:
+     path: assets/images/support/shape-4.png
+
+    sl24:
+     path: assets/images/support/shape-5.png
+
+    sl25:
+     path: assets/images/support/shape-6.png
+    
+
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN

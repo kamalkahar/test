@@ -1,0 +1,68 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+# en: &DEFAULT_EN
+  # header:
+    # text: Community
+   
+    # sl1:
+     # path: assets/img/concept/6.png
+
+    # button: Try It For Free
+
+    
+
+# en-US:
+  # <<: *DEFAULT_EN
+# en-CA:
+  # <<: *DEFAULT_EN
+# en-GB:
+  # <<: *DEFAULT_EN
+# en-AU:
+  # <<: *DEFAULT_EN
+#--------------------------------
+en: &DEFAULT_EN
+  header:
+    text: Developers
+    text1: Developers
+    text2: Core Team
+    text3: Roadmap
+    text4: Coding
+    text5: Testing
+    text6: Beta Information
+    text7: Mailing Lists
+    text8: Developer FAQ
+    text9: Related Projects
+    
+    
+    sl1:
+     path: assets/img/photos/b1.png
+     
+    text10: Who are we?
+    text11: A PostgreSQL database developer is someone who is actually working on the project, not someone using it to develop an application or a website. We don't hire programmers, we reach across the Internet, drawing the best database developers in the world to PostgreSQL. Read about the people behind PostgreSQL and check out the group picture from the 2006 PostgreSQL Anniversary Summit.
+    text12: What will you find here?
+    text13: The information available in this section will mainly interest PostgreSQL developers. Here you'll find the roadmap with current TODO list, coding and testing information, mailing lists, and the developer FAQ. Keep in mind the information available here is not necessarily available in the release version of PostgreSQL - it may not yet even be in the development version.
+    
+    
+    sl2:
+     path: assets/img/photos/develope.png
+     
+    text14: Google Summer of Code Program
+    text15: The PostgreSQL Project is a proud participant in Google's Summer of Code program. If you are interested in working on a PostgreSQL related project, please check out our Summer of Code page.
+     
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN

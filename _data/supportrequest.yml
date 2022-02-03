@@ -1,0 +1,72 @@
+﻿#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: Technical Support Assistance
+   
+    sl1:
+     path: assets/images/page-banner/shape-1.png
+    sl2: 
+     path: assets/images/page-banner/shape-2.png
+    sl3: 
+     path: assets/images/page-banner/shape-3.png
+    sl4: 
+     path: assets/images/page-banner/shape-4.png
+     
+    
+    
+    heading: Search for most common Q&A or write us a direct ticket with a request.
+
+    heading1: Click here to check our comprehensive online documentation.
+
+    title1: DOCUMENTATION
+    link1: https://docs.tigase.net/
+
+    heading2: Click here for free help, questions or bug reports.
+    title2: TIGASE ON GITHUB
+    link2: https://github.com/tigase
+    
+    heading3: Click here or send an email to &lt;support AT tigase.net&GT; for paid assistance or consulting services. You can also report security issues here.
+
+    heading4: Click here if you have standard or higher support level to go directly to our support tracking system.
+    title4: TIGASE TRACKING SYSTEM
+    link4: https://projects.tigase.net/
+
+
+    heading5: Click here if you are looking for sales contact.
+    title5: CONTACT SALES
+    
+    
+    
+    sl5:
+     path: assets/images/faq/shape-1.png
+
+    sl6:
+     path: assets/images/faq/shape-2.png
+    
+    sl7:
+     path: assets/images/faq/shape-3.png
+
+    sl8:
+     path: assets/images/faq/shape-4.png
+
+    sl9:
+     path: assets/images/faq/shape-5.png
+
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN

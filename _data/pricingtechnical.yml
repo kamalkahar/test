@@ -1,0 +1,283 @@
+﻿#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: Pricing Plans for Technical Support
+    desc: All tickets resolved within 15 minutes are free of charge under any paid support</br>plan, otherwise support is charged at regular consulting rates.
+    text: Smaller or larger system? Custom pricing plan?</br>Contact us
+
+    sl1:
+     path: assets/images/page-banner/shape-1.png
+    sl2: 
+     path: assets/images/page-banner/shape-2.png
+    sl3: 
+     path: assets/images/page-banner/shape-3.png
+    sl4: 
+     path: assets/images/page-banner/shape-4.png
+
+    headtext: Choose Your Best Plans
+
+    text2: Bill Monthly
+    text3: Bill Annual
+
+    mh1: Community
+    mh2: Public GitHub Ticket</br>System
+    mh3: Free
+    mh4: Free Support
+    
+    mbtn: Select Project
+
+    md: GitHub Tickets
+    md1: Core Team Help
+    md2: Community Help
+    md3: Source Code
+    md4: Documentation
+    md5: Unlimited Tickets
+
+    mh5: Basic
+    mh6: Email based private</br>way to get our help
+    mh7: $440
+    mh8: Billed Monthly
+    
+    mbtn1: Contact Us
+
+    md6: Community Plus..
+    md7: Core Tigase Team
+    md8: Business hours
+    md9: E-mail Based
+    md10: 2 Days, Lvl 1 & 2
+    md11: 4 Days, Lvl 3
+    md12: 4 Days, Lvl 4-5
+    md13: NFPR, Lvl 1-5 fix
+    md14: 5% Discount
+    
+
+    mh9: Standard
+    mh10: E-mail based and</br>ticketing system
+    mh11: $1100
+    mh12: Billed Monthly
+    
+    mbtn2: Contact Us
+
+    md15: Basic Plus..
+    md16: Core Tigase Team
+    md17: Business hours
+    md18: Tigase Tickets
+    md19: 1 Day, Lvl 1 & 2
+    md20: 2 Days, Lvl 3
+    md21: 2 Days, Lvl 4-5
+    md22: NFPR, Lvl 1-5 fix
+    md23: 10% Discount
+
+    mh13: Professional
+    mh14: Tickets in private</br>project area
+    mh15: $2200
+    mh16: Billed Monthly
+    
+    mbtn3: Contact Us
+
+    md24: Standard Plus..
+    md25: Core Tigase Team
+    md26: Business hours
+    md27: Tigase Project 3
+    md28: 12 hours, Lvl 1 & 2
+    md29: 1 Day, Lvl 3
+    md30: 2 Days, Lvl 4 & 5
+    md31: NFPR, Lvl 1-5 fix
+    md32: Phone Lvl 1 & 2
+    md33: IM Lvl 1 & 2
+    md34: 15% Discount
+
+    mh17: Enterprise
+    mh18: Tailored towards</br>demanding businesses
+    mh19: $5750
+    mh20: Billed Monthly
+    
+    mbtn4: Contact Us
+
+    md35: Professional Plus..
+    md36: Core Tigase Team
+    md37: 24/7 for Lvl 1-3
+    md38: Tigase Project 5
+    md39: 4 hours, Lvl 1 & 2
+    md40: 12 hours, Lvl 3
+    md41: 2 Days, Lvl 4 & 5
+    md42: NFPR, Lvl 4,5 fix
+    md43: 1 week, Lvl 1 & 2
+    md44: 2 weeks, Lvl 3 fix
+    md45: 3d, Lvl 2 temp fix
+    md46: 5d, Lvl 3 temp fix
+    md47: Phone Lvl 1-3
+    md48: IM Lvl 1-5
+    md49: 20% Discount
+
+    
+    yh1: Community
+    yh2: Public GitHub Ticket</br>System
+    yh3: Free
+    yh4: Free Support
+    
+    ybtn: Select Project
+
+    yd: GitHub Tickets
+    yd1: Core Team Help
+    yd2: Community Help
+    yd3: Source Code
+    yd4: Documentation
+    yd5: Unlimited Tickets
+
+    yh5: Basic
+    yh6: Email based private</br>way to get our help
+    yh7: $4400
+    yh8: Billed Monthly
+    yhs: Save $880
+    
+    ybtn1: Contact Us
+
+    yd6: Community Plus..
+    yd7: Core Tigase Team
+    yd8: Business hours
+    yd9: E-mail Based
+    yd10: 2 Days, Lvl 1 & 2
+    yd11: 4 Days, Lvl 3
+    yd12: 4 Days, Lvl 4-5
+    yd13: NFPR, Lvl 1-5 fix
+    yd14: 5% Discount
+    
+
+    yh9: Standard
+    yh10: E-mail based and</br>ticketing system
+    yh11: $11000
+    yh12: Billed Monthly
+    yhs1: Save $2200
+
+    ybtn2: Contact Us
+
+    yd15: Basic Plus..
+    yd16: Core Tigase Team
+    yd17: Business hours
+    yd18: Tigase Tickets
+    yd19: 1 Day, Lvl 1 & 2
+    yd20: 2 Days, Lvl 3
+    yd21: 2 Days, Lvl 4-5
+    yd22: NFPR, Lvl 1-5 fix
+    yd23: 10% Discount
+
+    yh13: Professional
+    yh14: Tickets in private</br>project area
+    yh15: $22000
+    yh16: Billed Monthly
+    yhs2: Save $4400
+    
+    ybtn3: Contact Us
+
+    yd24: Standard Plus..
+    yd25: Core Tigase Team
+    yd26: Business hours
+    yd27: Tigase Project 3
+    yd28: 12 hours, Lvl 1 & 2
+    yd29: 1 Day, Lvl 3
+    yd30: 2 Days, Lvl 4 & 5
+    yd31: NFPR, Lvl 1-5 fix
+    yd32: Phone Lvl 1 & 2
+    yd33: IM Lvl 1 & 2
+    yd34: 15% Discount
+
+    yh17: Enterprise
+    yh18: Tailored towards</br>demanding businesses
+    yh19: $57500
+    yh20: Billed Monthly
+    yhs3: Save $11500
+    
+    ybtn4: Contact Us
+
+    yd35: Professional Plus..
+    yd36: Core Tigase Team
+    yd37: 24/7 for Lvl 1-3
+    yd38: Tigase Project 5
+    yd39: 4 hours, Lvl 1 & 2
+    yd40: 12 hours, Lvl 3
+    yd41: 2 Days, Lvl 4 & 5
+    yd42: NFPR, Lvl 4,5 fix
+    yd43: 1 week, Lvl 1 & 2
+    yd44: 2 weeks, Lvl 3 fix
+    yd45: 3d, Lvl 2 temp fix
+    yd46: 5d, Lvl 3 temp fix
+    yd47: Phone Lvl 1-3
+    yd48: IM Lvl 1-5
+    yd49: 20% Discount
+
+
+    sl5: 
+     path: assets/images/plans/shape-1.png
+    sl6: 
+     path: assets/images/plans/shape-2.png
+    sl7: 
+     path: assets/images/plans/shape-3.png
+    sl8: 
+     path: assets/images/plans/shape-4.png
+    sl9: 
+     path: assets/images/plans/shape-5.png
+
+    headtext2: Over 4,200 Tigase servers running worldwide...
+
+    sl10:
+     path: assets/images/partner/partner-1.png
+    sl11:
+     path: assets/images/partner/partner-2.png
+    sl12:
+     path: assets/images/partner/partner-3.png
+    sl13:
+     path: assets/images/partner/partner-4.png
+    sl14:
+     path: assets/images/partner/partner-5.png
+    sl15:
+     path: assets/images/partner/partner-6.png
+    sl16:
+     path: assets/images/partner/partner-7.png
+    sl17:
+     path: assets/images/partner/partner-8.png
+    sl18: 
+     path: assets/images/partner/partner-9.png
+    sl19: 
+     path: assets/images/partner/partner-10.png
+    sl20: 
+     path: assets/images/partner/partner-11.png
+    sl21: 
+     path: assets/images/partner/partner-12.png
+    sl22: 
+     path: assets/images/partner/partner-13.png
+    sl23: 
+     path: assets/images/partner/partner-14.png
+    sl24: 
+     path: assets/images/partner/partner-15.png
+    sl25: 
+     path: assets/images/partner/partner-16.png
+
+    sl26:
+     path: assets/images/overview/shape-1.png
+    sl27:
+     path: assets/images/overview/shape-2.png
+    sl28:
+     path: assets/images/overview/shape-3.png
+    sl29:
+     path: assets/images/overview/shape-4.png
+    sl30:
+     path: assets/images/overview/shape-5.png
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN

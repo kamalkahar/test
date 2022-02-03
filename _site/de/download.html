@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="http://localhost:4000assets/img/favicon.png" />
+    <title>Real Time Communication, Presence and Messaging Software Provider</title>
+    <link rel="stylesheet" href="http://localhost:4000assets/css/plugins.css">
+    <link rel="stylesheet" href="http://localhost:4000assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="preload" href="http://localhost:4000assets/css/fonts/thicccboi.css" as="style" onload="this.rel='stylesheet'">
+    <style>
+        .goog-te-banner-frame {
+            display: none !important;
+            top: 0px !important;
+        }
+        
+        body {
+            top: 0px !important;
+        }
+        
+        .goog-te-gadget span {
+            display: none !important;
+        }
+        
+        .goog-logo-link {
+            display: none !important;
+        }
+        
+        .goog-te-gadget {
+            color: transparent !important;
+        }
+        /* .gtrans {
+            position: fixed; right: 110px; top: 30px; z-index: 9999;
+        } */
+        /* .gtrans {
+    position: fixed;
+    right: 5%;
+    top: 5px;
+    z-index: 9999;
+} */
+        
+        .gtrans {
+            position: fixed;
+            right: 1%;
+            top: 0px;
+            z-index: 9990;
+        }
+        /*
+@media (min-width:1400px) {
+    .gtrans {
+    position: fixed;
+    right: 5%;
+    top: 65px;
+    z-index: 9999;
+}
+}
+@media (min-width:1024px) {
+    .gtrans {
+    position: fixed;
+    right: 16%;
+    top: 65px;
+    z-index: 9999;
+}
+} */
+        
+        .goog-te-gadget .goog-te-combo {
+            margin: 4px 0;
+            border: none;
+            background-color: rgb(255 255 255 / 0%) !important;
+            font-size: 14px;
+            font-family: THICCCBOI, sans-serif !important;
+            color: #a8afbd !important;
+            font-weight: 700 !important;
+            font-size: .65rem !important;
+        }
+    </style>
+</head>
+
+
+
+<!-- start header Arae -->
+<!-- <div class="gtrans"  id="google_translate_element"></div> -->
+<header class="wrapper bg-soft-primary">
+
+
+
+    <nav class="navbar center-nav transparent navbar-expand-lg navbar-light">
+        <div class="container flex-lg-row flex-nowrap align-items-center">
+            <div class="navbar-brand w-100">
+                <a href="index.html"><img src="http://localhost:4000assets/img/logo.png" alt="" /></a>
+            </div>
+            <div class="navbar-collapse offcanvas-nav">
+                <div class="offcanvas-header d-lg-none d-xl-none">
+                    <a href="#"><img src="http://localhost:4000assets/img/logo0w.png" alt="" /></a>
+                    <button type="button" class="btn-close btn-close-white offcanvas-close offcanvas-nav-close" aria-label="Close"></button>
+                </div>
+
+                <!--<ul class="navbar-nav">
+    <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>-->
+                <!--/.dropdown-menu -->
+                <!--</li>
+    <li class="nav-item ">
+        <a class="nav-link " href="aboutus.html">About</a>
+
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link " href="https://docs.tigase.net/" target="_blank">Documentation</a>
+
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link " href="download.html">Download</a>
+
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link " href="community.html">Community</a>
+
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="developer.html">Developers</a>-->
+                <!--/.dropdown-menu -->
+                <!--</li>
+    <li class="nav-item">
+        <a class="nav-link" href="donate.html">Donate</a>-->
+                <!--/.dropdown-menu -->
+                <!--</li>
+    <li class="nav-item">
+        <a class="nav-link" href="https://tigase.net/" target="_blank">Enterprise</a>-->
+                <!--/.dropdown-menu -->
+                <!--</li>
+    </ul>-->
+                <!-- /.navbar-nav -->
+
+
+                <ul class="navbar-nav">
+                    
+                    <li class="nav-item"><a class="nav-link" href="/os-website/index">Home</a></li>
+
+                    
+                    <li class="nav-item"><a class="nav-link" href="/os-website/aboutus">About</a></li>
+
+                    
+                    <li class="nav-item"><a class="nav-link" href="https://docs.tigase.net/">Documentation</a></li>
+
+                    
+                    <li class="nav-item"><a class="nav-link" href="/os-website/download">Download</a></li>
+
+                    
+                    <li class="nav-item"><a class="nav-link" href="/os-website/community">Community</a></li>
+
+                    
+                    <li class="nav-item"><a class="nav-link" href="/os-website/donate">Donate</a></li>
+
+                    
+                    <li class="nav-item"><a class="nav-link" href="https://tigase.net/">Enterprise</a></li>
+
+                    
+                    <li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
+
+                    
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+            <div class="navbar-other w-10 d-flex ms-auto">
+                <ul class="navbar-nav flex-row align-items-center ms-auto" data-sm-skip="true">
+
+                    <li class="nav-item dropdown language-select text-uppercase">
+                        <!-- <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">En</a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">    
+                        <a href="/oswebsite/" aria-current="true">English</a>
+                        </li>
+                            <li class="nav-item">  <a href="/oswebsite/mo/" hreflang="zh-MO">繁體中文</a></li>
+                            <li class="nav-item">  <a href="/oswebsite/ae/" hreflang="ar-AE">عربى</a>
+                          </li>
+                         
+                        </ul> -->
+
+                        <div align="right">
+                            <!-- Adds links to other languages on the post -->
+                              
+                            <a href="/download.html">en</a>       
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="offcanvas-info">
+                            <i class="uil uil-info-circle"></i></a>
+                    </li>
+                    <li class="nav-item d-lg-none">
+                        <div class="navbar-hamburger"><button class="hamburger animate plain" data-toggle="offcanvas-nav"><span></span></button></div>
+                    </li>
+                </ul>
+                <!-- /.navbar-nav -->
+            </div>
+            <!-- /.navbar-other -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- /.navbar -->
+    <div class="offcanvas-info text-inverse">
+        <button type="button" class="btn-close btn-close-white offcanvas-close offcanvas-info-close" aria-label="Close"></button>
+        <a href="index.html"><img src="http://localhost:4000assets/img/logo0w.png" alt="" /></a>
+        <div class="mt-4 widget">
+            <p style="text-align:justify">Getting started with using XMPP never been easier - pick a project you want to build, and let XMPP safely and robustly store your data.</p>
+        </div>
+        <!-- /.widget -->
+        <div class="widget">
+            <h4 class="widget-title text-white mb-3">Contact Info</h4>
+            <address>4275 Executive Sq.,<br /> Suite 200, La Jolla,<br /> CA 92037 </address>
+            <!--<a href="mailto:info@tigase.net">info@tigase.net</a><br /> <a href="tel:+14159004778">+1 (415) 900-4778</a>-->
+            <!-- /.widget -->
+            <div class="widget"><br />
+
+                <h4 class="widget-title text-white mb-3">Learn More</h4>
+                <ul class="list-unstyled">
+                    <li><a href="index.html">Our Story</a></li>
+                    <li><a href="index.html">Terms of Use</a></li>
+                    <li><a href="index.html">Privacy Policy</a></li>
+                    <li><a href="index.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- /.widget -->
+            <div class="widget">
+                <h4 class="widget-title text-white mb-3">Follow Us</h4>
+                <nav class="nav social social-white">
+                    <a href="https://twitter.com/tigase" target="_blank"><i class="uil uil-twitter"></i></a>
+                    <a href="https://www.facebook.com/tigase" target="_blank"><i class="uil uil-facebook-f"></i></a>
+
+                </nav>
+                <!-- /.social -->
+            </div>
+            <!-- /.widget -->
+        </div>
+        <!-- /.offcanvas-info -->
+    </div>
+</header>
+<!-- /header -->
+
+<body id="page-top">
+
+	
+
+<!-- /header -->
+<section class="wrapper bg-soft-primary">
+    <div class="container pt-10 pb-12 pt-md-14 pb-md-16 text-center">
+        <div class="row">
+            <div class="col-md-7 col-lg-6 col-xl-5 mx-auto">
+                <h1 class="display-1 mb-3">Download</h1>
+                <!--<p class="lead px-lg-5 px-xxl-8">Welcome to our journal. Here you can find the latest company news and business articles.</p>-->
+            </div>
+            <!-- /column -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /section -->
+<!-- /section -->
+<section class="wrapper bg-light">
+    <div class="container py-14 py-md-16">
+        <div class="row gx-lg-8 gx-xl-12">
+            <aside class="col-lg-2 sidebar">
+
+                <!-- /.widget -->
+                <div class="widget">
+                    <h4 class="widget-title mb-3">Quick Links</h4>
+                    <ul class="unordered-list bullet-primary text-reset">
+                        <li><a href="#">Downloads</a></li>
+                        <li><a href="#">Packages</a></li>
+                        <li><a href="#">Source</a></li>
+                        <li><a href="#">Software Catalogue</a></li>
+                        <li><a href="#">File Browser</a></li>
+
+                    </ul>
+                </div>
+                <!-- /.widget -->
+                <!-- /.widget -->
+            </aside>
+
+            <div class="col-lg-10">
+                <div class="blog classic-view">
+                    <article class="post">
+                        <div class="card">
+                            <!--<figure class="card-img-top overlay overlay1 hover-scale">
+        <a href="blog-post.html"><img src="assets/img/photos/b1.jpg" alt="" /></a>
+        <figcaption>
+            <h5 class="from-top mb-0">Read More</h5>
+        </figcaption>
+    </figure>-->
+                            <div class="card-body">
+                                <div class="post-header">
+                                    <h2 class="post-title mt-1 mb-0"><a class="link-dark" href="">Downloads</a></h2>
+                                    <br /><br />
+                                          <h4>PostgreSQL Downloads</h4>
+                                </div>
+                                <!-- /.post-header -->
+                                <div class="post-content">
+                                    <p style="text-align:justify;">PostgreSQL is available for download as ready-to-use packages or installers for various platforms, as well as a source code archive if you want to build it yourself.</p>
+                                </div>
+                                <!-- /.post-content -->
+                                <h4>Packages and Installers</h4>
+                                <div class="post-content">
+                                    <p style="text-align:justify;">Select your operating system family&#x3a;</p>
+                                </div>
+                            </div>
+                            <!--/.card-body -->
+                            <div class="card-footer">
+                                <h4>Source code</h4>
+                                <div class="post-content">
+                                    <p style="text-align:justify;">The source code can be found in the main file browser or you can access the source control repository directly at <a href="https://git.postgresql.org/gitweb/?p=postgresql.git;a=summary">git.postgresql.org.</a> Instructions for building from source can be found in the documentation.</p>
+                                </div>
+                            </div>
+                            <!-- /.card-footer -->
+
+                            <div class="card-footer">
+                                <h4>Beta/RC Releases and development snapshots (unstable)</h4>
+                                <div class="post-content">
+                                    <p style="text-align:justify;">There are source code and binary packages of beta and release candidates, and of the current development code available for testing and evaluation of new features. Note that these builds should be used <b>for testing purposes only</b>, and not for production systems.</p>
+                                </div>
+                            </div>
+
+                            <div class="card-footer">
+                                <h2 class="post-title mt-1 mb-0"><a class="link-dark" href="">3rd party distributions</a></h2>
+                                <br />
+                                <h4>Machine Learning and Data Visualization with PostgreSQL</h4>
+
+                                <p>
+                                    <a href="#">Download 2UDA</a> for Windows, macOS, and Linux - certified by 2ndQuadrant for all supported versions of PostgreSQL.
+                                </p>
+
+                                <p>
+                                    2ndQuadrant Unified Data Analytics (2UDA) is a data analytics application suite that unifies databases, machine learning, data mining, and visualization. The application can be installed using a user-friendly, one-click desktop installer. 2UDA builds on the capabilities of Orange, an open source machine learning and data visualization tool, by integrating it with the PostgreSQL database.
+                                </p>
+                            </div>
+
+                            <div class="card-footer">
+                                <h4>Ready to run stacks</h4>
+                                <div class="post-content">
+                                    <p>LAPP, MAPP, WAPP (Linux/Mac/Windows + Apache + PHP + PostgreSQL) stacks are available from <a href="#">BitNami</a>.</p>
+                                </div>
+                            </div>
+
+                            <div class="card-footer">
+                                <h2 class="post-title mt-1 mb-0"><a class="link-dark" href="">Additional Software</a></h2>
+                                <br />
+                                <h4>Software Catalogue</h4>
+
+                                <p style="text-align:justify;">
+                                    There is much software available that is not bundled with PostgreSQL. The <a href="#">Software Catalogue</a> offers a listing of many commercial and Open Source applications, interfaces and extensions to PostgreSQL that you may find useful.
+                                </p>
+
+                                <p>
+                                    If you wish to have your product listed in the catalogue, please fill out this <a href="#">form</a>.
+                                </p>
+                            </div>
+                            <!--<div class="card-footer">
+                                <h4>Software Catalogue</h4>
+                                <p>
+                                    You can download most of the software we publish from a mirror site using our <a href="#">File Browser</a>.
+                                </p>
+                            </div>-->
+
+
+                            <div class="card-footer">
+                               
+                                    <div class="row gx-lg-8 gx-xl-12 align-items-center">
+                                        <div class="col-lg-6 position-relative">
+
+                                            <div class="overlap-grid overlap-grid-2">
+
+                                                <img src="assets/img/photos/download.png" alt="" width="100%">
+
+
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 position-relative">
+                                            <h4>Software Catalogue</h4>
+                                            <div class="post-content">
+                                                <p>You can download most of the software we publish from a mirror site using our <a href="#">File Browser</a>.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                            </div>
+
+                        </div>
+                        <!-- /.card -->
+                    </article>
+
+                </div>
+
+            </div>
+            <!-- /column -->
+            <!-- /column .sidebar -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /section -->
+
+
+
+
+	
+<footer class="bg-navy text-inverse">
+    <div class="container pt-15 pt-md-17 pb-13 pb-md-15">
+        <div class="d-lg-flex flex-row align-items-lg-center">
+            <h3 class="display-4 mb-6 mb-lg-0 pe-lg-20 pe-xl-22 pe-xxl-25 text-white" style="text-align:left;">Getting started with using XMPP never been easier - pick a project you want to build, and let XMPP safely and robustly store your data.</h3>
+            <a href="download" class="btn btn-primary rounded-pill mb-0 text-nowrap">Try It For Free</a>
+        </div>
+        <!--/div -->
+        <hr class="mt-11 mb-12" />
+        <div class="row gy-6 gy-lg-0">
+            <div class="col-md-4 col-lg-3">
+                <div class="widget">
+                    <a href="index.html"><img class="mb-4" src="http://localhost:4000assets/img/logow.png" alt="" /></a>
+
+                    <p class="mb-4">© 2021 Tigase. <br class="d-none d-lg-block" />All rights reserved.</p>
+                    <nav class="nav social social-white">
+                        <a href="https://www.twitter.com/tigase" target="_blank"><i class="uil uil-twitter"></i></a>
+                        <a href="https://www.facebook.com/tigase" target="_blank"><i class="uil uil-facebook-f"></i></a>
+
+                    </nav>
+                    <!-- /.social -->
+                </div>
+                <!-- /.widget -->
+            </div>
+            <!-- /column -->
+            <div class="col-md-4 col-lg-3">
+                <div class="widget">
+                    <h4 class="widget-title text-white mb-3"><a href="https://github.com/tigase/tigase-server/issues" target="_blank">Get in Touch</a></h4>
+                    <address class="pe-xl-15 pe-xxl-17">4275 Executive Sq., Suite 200, La Jolla, CA 92037</address>
+                    <!--<a href="mailto:info@tigase.net">info@tigase.net</a><br /> <a href="tel:+14159004778">+1 (415) 900-4778</a>-->
+                </div>
+                <!-- /.widget -->
+            </div>
+            <!-- /column -->
+            <div class="col-md-4 col-lg-3">
+                <div class="widget">
+                    <h4 class="widget-title text-white mb-3">XMPP Software</h4>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://github.com/tigase/tigase-server" target="_blank">XMPP Server Project</a>
+                        </li>
+                        <!--<li>
+                            <a href="#">XMPP Clients</a>
+                        </li>
+                        <li>
+                            <a href="#">XMPP Libraries</a>
+                        </li>-->
+
+                    </ul>
+                </div>
+                <!-- /.widget -->
+            </div>
+            <!-- /column -->
+            <div class="col-md-12 col-lg-3">
+                <div class="widget">
+                    <h4 class="widget-title text-white mb-3">Newsletter</h4>
+                    <p class="mb-5">
+
+                    <p>Subscribe to TIGASE Stay up to date with news and updates in our software</p>
+                    </p>
+                    <div class="newsletter-wrapper">
+                        <!-- Begin Mailchimp Signup Form -->
+                        <div id="mc_embed_signup2">
+                            <form action="#" method="post">
+                                <div id="mc_embed_signup_scroll2">
+                                    <div class="mc-field-group input-group form-label-group">
+                                        <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="Email Address" id="mce-EMAIL2">
+                                        <label for="mce-EMAIL2">Email Address</label>
+                                        <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe2" class="btn btn-primary">
+                                    </div>
+                                    <div id="mce-responses2" class="clear">
+                                        <div class="response" id="mce-error-response2" style="display:none"></div>
+                                        <div class="response" id="mce-success-response2" style="display:none"></div>
+                                    </div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1" value=""></div>
+                                    <div class="clear"></div>
+                                </div>
+                            </form>
+                        </div>
+                        <!--End mc_embed_signup-->
+                    </div>
+                    <!-- /.newsletter-wrapper -->
+                </div>
+                <!-- /.widget -->
+            </div>
+            <!-- /column -->
+        </div>
+        <!--/.row -->
+    </div>
+    <!-- /.container -->
+</footer>
+
+
+<div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+
+
+<!-- <script src="http://localhost:4000assets/js/bootstrap.bundle.min.js"></script> -->
+
+<script src="http://localhost:4000assets/js/jquery.min.js"></script>
+<script src="http://localhost:4000assets/js/plugins.js"></script>
+<script src="http://localhost:4000assets/js/theme.js"></script>
+
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                    pageLanguage: 'en'
+                },
+                'google_translate_element'
+            );
+        }
+    </script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+	
+
+
+
+</body>
+</html>

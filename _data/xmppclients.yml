@@ -1,0 +1,155 @@
+﻿#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: Tigase XMPP Clients
+    tdesc: Tigase XMPP Client Apps for popular platforms.
+    button: CHECK OUR PRICING
+    text: Contact our Sales team
+
+    sl1:
+     path: assets/images/page-banner/shape-1.png
+    sl2: 
+     path: assets/images/page-banner/shape-2.png
+    sl3: 
+     path: assets/images/page-banner/shape-3.png
+    sl4: 
+     path: assets/images/page-banner/shape-4.png
+
+    tab1: FEATURES
+    tab2: DETAILS
+    tab3: DOWNLOAD
+     
+    headtext: Native platform applications are always better then web based. All applications, we offer, are the working proof that XMPP can be used efficiently on both desktop and mobile platforms.
+
+    sl5: 
+     path: assets/images/server/stork.png
+    head: <br/>Stork IM
+    desc: Native Android app. Offers real Android experience, is fast, reliable and offers all the features like chat, group chat, push notifications, voice and video calls. Supports multiple XMPP accounts and is compatible with any XMPP server.
+    sl6: 
+     path: assets/images/server/beagleim.png
+    head1: <br/>Bealgle IM
+    desc1: Literally the best client application for MacOS. True MacOS native. Simple and powerful. Great user experience with all the typical features plus voice and video calls. Supports multiple XMPP accounts and is compatible with any XMPP server.
+    sl7: 
+     path: assets/images/server/siskin.png
+    head2: <br />Siskin
+    desc2: The best native XMPP Client for iOS devices. Advanced security, spam protection, push notifications, voice and video calls, supports multiple XMPP accounts and is compatible with any XMPP server.
+
+    sl8: 
+     path: assets/images/features/shape-1.png
+    sl9: 
+     path: assets/images/features/shape-2.png
+    sl10: 
+     path: assets/images/services-details/shape-1.png
+    sl11: 
+     path: assets/images/services-details/shape-2.png
+    sl12: 
+     path: assets/images/services-details/shape-3.png
+
+    headtext1: Our XMPP Chat Apps philosophy
+    hdesc: Web based, JavaScript, React and so on app are great… for developers.
+    hdesc1: We do care about users and we understand that the only way to provide users with great experience is through native apps.
+    hdesc2: Therefore we have put a lot of effort and dedication to develop native client for each platform separately. Each of our apps is tailored for the best experience and native feeling. Plus they are optimized for each platform, so they are lightweight but also powerful and take full advantage of what is offered by the environment they are running on.
+    hdesc3: All our applications offer the same set of features, so no need to replace them over and over again below. Here is the list&#x3a;
+    hdesc4: Simple Chat - yes, this is the good, old 1-1 chat.
+    hdesc5: Group Chat - like the old IRC, now it is MUC (Multi User Chat). You can create chat rooms, public or private, open or password protected with moderators and so on…
+    hdesc6: Push notifications - if the app is not running on the device, the user is not connected to the XMPP server but he can still receive notifications about new messages from people.
+    hdesc7: iOS has now call silencing from unknown. We had this before them. All new chats from unknown users go to separate tab “From unknown” and you can turn off push notifications about messages from people who are on on your contact list. Plus, of course Tigase XMPP Server has a built-in anti-spam filtering which helps too.
+    hdesc8: Voice and Video calls are pretty much standard nowadays and Tigase client support it as well.
+    hdesc9: Multi-account support - you can add as many accounts on different servers as you want on your client and communicate through all these accounts at the same time
+    hdesc10: Files Sharing - yes, photos, documents, anything can be send through the XMPP client to your buddies either on the simple 1-1 chat or to entire team in a group chat. Client displays photos nicely, so you can see them directly in the app.
+    hdesc11: OMEMO - E2E encryption is available on all our client apps.
+    hdesc12: We, at Tigase use all our XMPP apps ourselves.
+
+    headtext4: All Open Source
+    hdesc13: All our XMPP Chat applications are open source with code available in public repositories on GitHub.
+
+    headtext5: Stork IM - Tigase Android XMPP Client
+    hdesc14: Our first mobile client we created. Native Android app designed and written from ground up, again and again…
+
+    hdesc15: We experimented, made mistakes and learned. So here it is. Android Java, native app. Lightweight, fast and powerful.
+
+    hdesc16: Our Android client works on most Android devices. It offers a set of typical features you would expect from a chat application plus a lot more, not typical features.
+
+    headtext6: Siskin IM - Tigase iOS XMPP Client
+    hdesc17: Our second mobile client. This one for iOS, optimized to run on phones and tablets.
+    hdesc18: It is a native Swift app optimized for iOS for both phones and tablets.
+    hdesc19: Simple to use but with many advanced options for more demanding users.
+    hdesc20: We suggest to start using it in a simple mode and gradually explore other features and options. 
+    
+    headtext7: Beagle IM - Tigase MacOS XMPP Client
+    hdesc21: Mobile devices are good when you are on the go. But we are software developers and we work on real computers all the time. Hence we also have and offer a real desktop, native chat client.
+    hdesc22: Again, it’s a native Swift app designed from ground up and optimized for desktop MacOS.
+    hdesc23: Feature set matches all other other apps.
+    hdesc24: If you work on MacOS, we honestly recommend to try it out.
+
+    sl13: 
+     path: assets/images/services-details/shape-1.png
+    sl14: 
+     path: assets/images/services-details/shape-2.png
+    sl15: 
+     path: assets/images/services-details/shape-3.png
+
+    headtext11: Stork IM - Tigase XMPP Client for Android
+    headtext12: V 3.0.22
+    hdesc25: Android native app. Lightweight and easy-to-use but powerful XMPP client.
+
+    btn1: Download
+    btn2: Source Code
+
+    headtext13: Siskin IM - Tigase XMPP Client for iOS
+    headtext14: V 5.4
+    hdesc26: iOS native app. Lightweight and easy-to-use but powerful XMPP client.
+
+    btn3: Download
+    btn4: Source Code
+
+    headtext15: Beagle IM - Tigase XMPP Client for MacOS
+    headtext16: V 3.4
+    hdesc27: MacOS native app. Lightweight and easy-to-use but powerful XMPP client.
+
+    btn5: Download
+    btn6: Source Code
+
+    hdesc28: We offer full support for corporate clients. Check our detailed pricing for more explanation.
+
+    sl16:
+     path: assets/images/server/xmppserver.png
+    sl17:
+     path: assets/images/server/libraries.png
+    sl18:
+     path: assets/images/support/shape-1.png
+     
+    sl19:
+     path: assets/images/support/shape-2.png
+
+    sl20:
+     path: assets/images/support/shape-3.png
+
+    sl21:
+     path: assets/images/support/shape-4.png
+
+    sl22:
+     path: assets/images/support/shape-5.png
+
+    sl23:
+     path: assets/images/support/shape-6.png
+    
+
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN

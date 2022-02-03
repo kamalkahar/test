@@ -1,0 +1,188 @@
+﻿#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    intitle: Tigase Instant Communication, Presence and Messaging
+    indesc: Tigase Instant Communication, Presence and Messaging system</br> is a complete software suite to create large scale real-time</br> messaging systems to connect people or IoT devices.
+    inbutton: CHECK OUR PRICING
+    intext: Contact our Sales team
+   
+
+    insl1:
+     path: assets/images/page-banner/shape-1.png
+    insl2: 
+     path: assets/images/page-banner/shape-2.png
+    insl3: 
+     path: assets/images/page-banner/shape-3.png
+    insl4: 
+     path: assets/images/page-banner/shape-4.png
+   
+    intab1: FEATURES
+    intab2: DETAILS
+    intab3: DOWNLOAD
+     
+    inheadtext: The complete software suite allows you to quickly jump-start your project with ready to use applications on both the server and client side.
+    
+    inhead: XMPP Server
+    inhead1: Client Applications
+    inhead2: Libraries
+    
+    inhead1desc: Tigase XMPP Server is the server application which handles all the real-time communication between users or devices. It is very efficient software to build low-cost and highly scalable systems.
+
+    inhead2desc: Mobile and desktop clients for popular platforms like MacOS, iOS and Android can be used out of the box. Simple to use and rich in features can be further customized to meet any needs.</br></br>
+
+    inhead3desc: Libraries in Java, Swift and Kotlin allow to build own applications, bots and integrate with external systems. Well thought and rich API can jump starts your project and get it up and running very quickly.</br>
+
+    insl5:
+     path: assets/images/services-details/shape-1.png     
+    insl6:
+     path: assets/images/services-details/shape-2.png
+    insl7:
+     path: assets/images/services-details/shape-3.png
+
+    inheadtext2: What is “Instant Communication”
+
+    indesc1: First things first. What is this all about?
+
+    indesc2: We say this is “Instant communication” or “Near real-time communication” and indeed, this is about communicating, talking, sending messages, sending other information, documents. Instant or real-time means, whatever you send, is sent right away, it is also delivered right away.
+
+    indesc3: Would the receiving person get it right away too? Well, it depends, if the person is online, it gets it right away and can respond right away.
+
+    indesc4: Messaging really means chatting, talking. It’s not just sending and receiving messages. You send a message, friend receives it in real-time and can respond right away. You see the full chat history, context, you just talk. And you can chat with many people at the same time, in what we call group chat rooms. It’s like sitting at the table with friends and talking to them.
+
+    indesc5: What special about this system is, that You know if your friends are online. If you send a message to online friend you can expect his response right away, if he is offline, you know about it and you know you may have to wait for a response. No guessing. This is the “Presence” part in the title. Presence is just a status of the other person&#x3a; online, offline, busy, away, and so on… So you not only can send a message to your friend instantly but also can know his current status, also in real-time. As soon as somebody changes his status, you know it right away.
+
+    indesc6: Presence is also much more than just online status. Presence can optionally carry on additional information, like location, mood, what your friends are listening to and just anything your friend chooses to share with you.
+
+    indesc7: And… “last but not least”, the system is not just for people talking. It’s for devices as well. Anything that can send some information, share some data, update it’s status can effectively use our software. IoT is an ideal example where our software excels and shows it’s full power.
+
+    inheadtext3: How is it different from e-mail?
+
+    indesc8: Simple enough. It all looks similar to email, send and receive messages. What’s more, even a user address looks exactly like email. So what is the difference?
+    indesc9: There are a few significant differences &#x3a;
+    indesc10: E-mail is not real-time and is not instant. It may be quite fast but it may also be quite slow (a couple of minutes) until the email is actually delivered and this is still considered a norm for email messages.
+    indesc11: XMPP is actually near real-time and instant. Typical delivery time is way below 1 second.
+    indesc12: E-mail is not really for chatting or talking. It’s more like sending letters, longer texts. It’s not really suitable for sending short messages or notifications.
+    indesc13: XMPP is just for that. Chatting, talking, sending short messages or notifications. However our software has expanded on the basic features and allows rich text formatting using Markdown language. You can send long texts and even letters nicely formatter which are pleasant to read.
+    indesc14: E-mail has no presence information. You send an email message but you do not know whether your friend is online, when he gets the message, when he can read the message and finally respond. You just send an email and wait.
+    indesc15: XMPP does have presence information. Plus all kinds of confirmations built-in. You know if your friend is online, when he received the message, read it and you know when to expect a response. You know whether your friend is available to talk right now or busy doing something.
+    indesc16: E-mail was designed and created very long time ago. When the high security and privacy was not such a big concern, there was no spam, and other attacks. Over time security of email improved but there are many different techniques and standards not always adopted by every email provider. Spam has been a huge problem for a long time and so far nobody knows how to solve it.
+    indesc17: XMPP came to be long time after e-mail. When all the email weaknesses and problems were well known. So it was designed from ground up to solve the problems. Security is embedded in the XMPP core, privacy was the main concern and preventing Spam and DOS attacks was taken into consideration from the very beginning.
+
+    inheadtext4: How is it different from SMS / Text Messages?
+    indesc18: SMS / Text messages are instant, aren’t they? They are sent and delivered in real-time, aren’t they?
+    indesc19: At first, it all sounds like SMS / Texting. People chat over SMS all the time. Is XMPP any different.
+    indesc20: There are a few significant differences&#x3a;
+
+    indesc21: Presence &#x3a; is completely missing from SMS/Texting. You have no idea whether the person is at their device to read the message and text you back. You are sure, that he gets the message, usually, right away, unless their device is turned off. But you have no way of knowing if the device is on or off, whether your friend is close by to the device, and not busy to respond.
+    indesc22: User Address/ID &#x3a; for SMS / Texting, this is just a phone number. Sure, nowadays it is kind of personal thing but if it changes, then friends may have problem finding out your new number, may have problem contacting you at all. So you have to take a good care of letting them know about the phone number change. But even if you have still your number and poeple can text you, the device may be far on the table when you rest on the coach with your tablet. To read a text from a friend or send somebody SMS you would have to interrupt your rest, find your phone and type the message on the screen. Don’t mention about all your chat history. When your mobile is gone, all the SMSes / Texts are gone too.
+    indesc23: With XMPP, this problem does not exist. You can have multiple applications connected to your one user address and can chat with friends using whatever device you have handy with you. And all your friends will always recognize you as you. And you can choose to store your chat history on the server and you can see it on any devices and app you connect with.
+    indesc24: Chat Feedback &#x3a; With SMS / Text you send a message and… wait. In XMPP, you send a message, you see when it was delivered, you also see when the friend read it and finally you can even see when the friend starts typing response.
+
+    inheadtext5: How is it different from Twitter, FB?
+    indesc25: Twitter and Facebook are social networking services. Although you can send a message to other people, these services are not really designed for effective, real-time communication. They are more like publications, where you can post a message, a longer article, photo or just anything for people to see, when they come over to your profile.
+
+    indesc26: In theory, the XMPP in it’s core can do all that can be done on Twitter and Facebook and also so much more. It’s just a matter of implementing apps that can make use of all the XMPP capabilities.
+
+    indesc27: The Tigase XMPP Server could serve as a social networking platform out of the box and there already are systems like this. Our focus, however, is on real-time communication, hence our apps are designed as effective messaging clients.
+
+
+    inheadtext6: How is it different from Skype, ICQ, AIM, FB Messenger, iMessage and others big names?
+
+    indesc28: Ok, so, there are chat / messaging systems available already. They are instant and near real-time. Big brands are behind them they are not going anywhere any time soon. They also offer voice and video calls and all the features and maybe even more.
+
+    indesc29: How XMPP is different and how Tigase is different and better then?
+
+    indesc30: First of all XMPP is a public and open standard. So, you know what is under the hood, how it works, you can evaluate if it is secure. You can easily create own tools, apps, servers to connect to the world wide XMPP network. Well, the XMPP by desgin is extensible, so you can easily customize and extend the basic XMPP protocol with more features and capabilities.
+
+    indesc31: None of this is true for the big name systems.
+
+    indesc32: You do not really know how your messages are sent and delivered by the big names. How your personal data is handled. Even if you assume, they are big with big pockets, so they can implement secure systems and can take care of your data. There are other important questions&#x3a; It safe? Who has access to it? Would they sell your profile to third-party?
+
+    indesc33: XMPP and Tigase for that matter allows you to deploy your own instant communication system, independent from any other, you keep all your data, you control everything, you decide what is allowed, who can communicate with whom. And still while having independent system for your needs, you can communicate with other users who are on XMPP.
+
+    indesc34: And if you want some extra features, customization, there is no way to have it on the big name systems. You just have to rely on what is there and adjust yourself to what is available.
+
+    inheadtext7: How is it different from Slack?
+
+    indesc35: And again, it all sounds like Slack. So similar in every aspect. Is there any difference?
+
+    indesc36: Indeed there is. In principle XMPP has all the same features as Slack has. Probably even some more. The main differene is that with XMPP you can choose software vendor (Tigase is one of them but there are many others), deploy your own system, independent which is under your full control, you keep your data and you decide what happens with them.
+
+
+    insl15:
+     path: assets/images/services-details/shape-1.png
+    insl16:
+     path: assets/images/services-details/shape-2.png
+    insl17:
+     path: assets/images/services-details/shape-3.png
+     
+    inheadtext8: Check our Apps first
+    inheadtext9: Available in AppStore and Google Play Store
+    indesc37: If you are new or just exploring, we suggest to start with our Apps/Clients first and connect to our public service&#x3a; tigase.im, jabber.today, xmpp.cloud and other are available.
+
+    inbtn: SiskIM/ iOS
+    inbtn1: Sources
+    inbtn2: StorkIM/ Android
+    inbtn3: Sources
+    inbtn4: BeagleIM/ MacOS
+    inbtn5: Sources
+
+    inheadtext10: Tigase XMPP Server
+    inheadtext11: Latest stable (8.0.0)
+    indesc38: For more advanced or adventurous our Tigase XMPP Server is ready to download and install. Setting it up is simple, and we have great instructions along with videos to help you out.
+
+    inbtn6: Download
+    inbtn7: Source Code
+    inbtn8: Install Guide/ Android
+
+    indesc39: All our software is fully supported. We provide training, consulting, system design, technical support and simply answer all questions.
+
+    insl18:
+     path: assets/images/realtime.jpg
+     
+    insl19:
+     path: assets/images/realtime.jpg
+
+    inteamdesc: Software License Pricing</br>
+    inteam1desc: Technical Support Pricing</br>
+     
+    insl20:
+     path: assets/images/support/shape-1.png
+     
+    insl21:
+     path: assets/images/support/shape-2.png
+
+    insl22:
+     path: assets/images/support/shape-3.png
+
+    insl23:
+     path: assets/images/support/shape-4.png
+
+    insl24:
+     path: assets/images/support/shape-5.png
+
+    insl25:
+     path: assets/images/support/shape-6.png
+
+
+
+    
+
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN

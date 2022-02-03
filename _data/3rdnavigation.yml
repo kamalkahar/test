@@ -1,0 +1,86 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.navigation[site.locale].nav.<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  toc2:
+  - title: Products
+    subfolderitems:
+      - page: Instant Communication & Messaging
+        url: /instantcommunication
+      - page: XMPP Software
+        url: /
+        subsubfolderitems:
+          - page: XMPP Server
+            url: /xmppserver
+          - page: XMPP Clients
+            url: /xmppclients
+          - page: XMPP Libraries
+            url: /xmpplibraries
+     
+  - title: Pricing
+    subfolderitems:
+      - page: Software License
+        url: /pricingxmpp
+      - page: Technical Support
+        url: /pricingtechnical
+      
+  - title: Blog
+    subfolderitems:
+      - page: November 12,2020:<br/> BeagleIM 4.1 and <br/>SiskinIM 6.1 released
+        url: /beagleim-4.1-and-siskin-6.1-released
+      - page: September 24, 2020:<br/>Publishing and<br/>Subscribing with<br/>Halcyon
+        url: /publishing-and-subscribing-with-halcyon
+      - page: September 15,2020:<br/> Using STUN & TURN<br/>server with Tigase XMPP<br/>Server with XEP-0215<br/>(External Service Discovery)
+        url: /tigase-server-with-stun-turn
+      - page: September 04,2020:<br/> BeagleIM 4.0 and <br/>SiskinIM 6.0 released
+        url: /#
+      - page: September 02,2020:<br/> A look at Halcyon
+        url: /#
+      - page: All Articles
+        url: /blog
+
+  - title: Contact
+    subfolderitems:
+      - page: Company Information
+        url: /contact
+      - page: Sales Questions
+        url: /salescontact
+      - page: Support Requests
+        url: /supportrequest
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Spanish
+# -------
+es: &DEFAULT_ES
+  nav:
+    - title: "Servicios"
+      section: servicios
+    - title: "Portafolio"
+      section: portafolio
+    - title: "Cronología"
+      section: cronologia
+    - title: "Equipo"
+      section: equipo
+    - title: "Contáctenos"
+      section: contacto
+    - title: "Fuente de la plantilla"
+      url: https://github.com/raviriley/agency-jekyll-theme/
+es-ES:
+  <<: *DEFAULT_ES
+es-CO:
+  <<: *DEFAULT_ES
