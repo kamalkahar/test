@@ -1,0 +1,133 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    text: Hello! This is Tigase
+    text1: Instant Communication, Presence and Messaging software based on the XMPP standard
+    text2: Who are we?
+    #text3: Tigase Instant Communication, Presence and Messaging
+    text4: A PostgreSQL database developer is someone who is actually working on the project, not someone using it to develop an application or a website. We don't hire programmers, we reach across the Internet, drawing the best database developers in the world to PostgreSQL. Read about the people behind PostgreSQL and check out the group picture from the 2006 PostgreSQL Anniversary Summit.
+    text5: XMPP Server
+    text6: Client Applications
+    text7: Libraries
+    text8: Our Success Story
+    text9: Reliable
+    text10: performance tests and long-lasting reliability tests.
+    text11: Secure
+    text12: XMPP was designed from ground up to be secure. 
+    text13: Cloud independent
+    text14: Tigase XMPP Server is Java application and can be deployed on anything that can run Java programs.
+    sl001: 
+     path: assets/img/photos/b1.png
+    #text15: What is &#34;Instant Communication&#34; ?
+    #text16: First things first. What is this all about?
+    text015:  What We Accomplished So Far
+    text17: Tigase is an open source project started by Artur Hefczyc in October 2004 to develop an XMPP server implementation in Java. Initially the goal was to develop a fully compliant XMPP server with backward compatibility with an informal XMPP specification.
+    text18: Native Android app. Offers real Android experience, is fast, reliable and offers all the features like chat, group chat, push notifications, voice and video calls.Sed vel dolor est. Nullam consectetur elit lorem, non rhoncus urna scelerisque et. Nunc fringilla iaculis diam. Proin sit amet ultrices arcu. Nam eget lacus eros. Vivamus ante nulla, semper nec diam nec, tempus mollis elit. Maecenas fermentum nunc posuere libero dictum, a condimentum ante maximus. Suspendisse nisi ligula, semper sit amet aliquam ultrices, consequat dignissim nibh.
+    text19: Stork IM
+    text20: Literally the best client application for MacOS. True MacOS native. Simple and powerful.
+    text21: Beagle IM
+    text22: The best native XMPP Client for iOS devices. Advanced security, spam protection, push notifications, voice and video calls, supports multiple XMPP accounts and is compatible with any XMPP server.
+    text23: Siskin IM
+    text24: 7518
+    texta24: Completed Projects
+    text25: 3472
+    texta25: Satisfied Customers
+    text26: 2184
+    texta26: Expert Employees
+    text27: 4523
+    texta27: Awards Won
+    text28: Marketing
+    text29: Strategy
+    text30: Development
+    text31: Data Analysis
+    text32: Tigase XMPP Server
+    text33: Tigase XMPP Server is our flagship server software writen in Java to build Instant Communication (IC) systems. The most basic explanation is that Tigase is a chat server, but it is so much more than just that.
+    text34: Always Online
+    text35: The main requirement for a real-time and instant communication is having all parties online all the time. Tigase XMPP Server can handle practically unlimited number of long-lasting concurrent connections from users or devices to the system.
+    text36: Presence
+    text37: XMPP systems keep users and devices connected and online for a long time. Most of the time. This makes them available to receive messages and other data. Until... they are not online. Or perhaps they are online but busy and unavailable.
+    text38: Messaging
+    text39: XMPP is known for chat systems. Chat means sending and receiving messages, hence 'Messaging' in name. But Tigase is so much more than sending messages, chatting. It's all aboutus communication between people and devices.
+    text40: Mobile Optimizations
+    text41: XMPP like most other systems were designed in pre-mobile era. By design they are intended for desktop use. Tigase, however, put a lot of effort to add custom optimizations and mechanisms for mobile devices to lower battery usage, devices after connection was lost.
+    text42: Instant Communication, Presence and Messaging software based on the XMPP standard
+    text43: XMPP Server
+    text44: XMPP Clients
+    text45: XMPP Libraries
+    text46: Our Future Plans.
+    text47: Cras quam nunc, vehicula id vestibulum in, tincidunt vitae massa. Nulla tempor id mauris id luctus. Vivamus non facilisis odio. Curabitur venenatis urna ac mollis vulputate. Sed imperdiet ac nisl ac imperdiet. Maecenas posuere posuere cursus. Curabitur nec nibh auctor, euismod nisi a, feugiat elit. Duis eu nisl nisl. Aliquam erat volutpat. Phasellus vel sapien pretium, consectetur eros id, vestibulum leo.
+    text48: Tigase, Inc. 100 Pine Street, &#35;1250 San Francisco CA 94111 USA
+    text49: Phone
+    text50: 14159004778
+    text51: +1 (415) 900-4778
+    text52: info@tigase.net
+    
+
+
+
+    prog1: 100
+    prog2: 80
+    prog3: 85
+    prog4: 90
+
+
+
+
+    sl1:
+     path: assets/img/photos/bg12.png
+    sl2:
+     path: assets/img/photos/about02.png
+    sl3:
+     path: assets/img/icons/megaphone.svg
+    sl4: 
+     path: assets/img/icons/list.svg
+    sl5: 
+     path: assets/img/concept/about.png
+    sl6: 
+     path: assets/img/icons/check.svg
+    sl7: 
+     path: assets/img/icons/user.svg
+    sl8: 
+     path: assets/img/icons/briefcase-2.svg
+    sl9: 
+     path: assets/img/icons/award-2.svg
+    sl10: 
+     path: assets/img/icons/target.svg
+    sl11: 
+     path: assets/img/icons/settings-3.svg
+    sl12: 
+     path: assets/img/icons/settings-3.svg
+    sl13: 
+     path: assets/img/photos/xmppserver.png
+    sl14: 
+     path: assets/img/icons/client.png
+    sl15: 
+     path: assets/img/icons/library.png
+    sl16: 
+     path: assets/img/icons/telemarketer.svg
+    sl17: 
+     path: assets/img/icons/dataserver.png
+
+    sl18: 
+     path: assets\img\photos\enterprise.png
+
+   
+
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN

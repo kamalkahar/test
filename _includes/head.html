@@ -1,0 +1,209 @@
+﻿<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{{site.url}}/assets/img/favicon.png" />
+    <title>Real Time Communication, Presence and Messaging Software Provider</title>
+    <link rel="stylesheet" href="{{site.url}}/assets/css/plugins.css">
+    <link rel="stylesheet" href="{{site.url}}/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <link rel="preload" href="{{site.url}}/assets/css/fonts/thicccboi.css" as="style" onload="this.rel='stylesheet'">
+    <style>
+        .goog-te-banner-frame {
+            display: none !important;
+            top: 0px !important;
+        }
+        
+        body {
+            top: 0px !important;
+        }
+        
+        .goog-te-gadget span {
+            display: none !important;
+        }
+        
+        .goog-logo-link {
+            display: none !important;
+        }
+        
+        .goog-te-gadget {
+            color: transparent !important;
+        }
+        
+        /* .gtrans {
+            position: fixed; right: 110px; top: 30px; z-index: 9999;
+        } */
+        /* .gtrans {
+    position: fixed;
+    right: 5%;
+    top: 0px;
+    z-index: 9999;
+} */
+.gtrans {
+    position: fixed;
+    right: 1%;
+    top: 0px;
+    z-index: 9990;
+}
+
+/*
+@media (min-width:1400px) {
+    .gtrans {
+    position: fixed;
+    right: 5%;
+    top: 65px;
+    z-index: 9999;
+}
+}
+@media (min-width:1024px) {
+    .gtrans {
+    position: fixed;
+    right: 16%;
+    top: 65px;
+    z-index: 9999;
+}
+} */
+
+
+        .goog-te-gadget .goog-te-combo {
+            margin: 4px 0;
+    border: none;
+    background-color: rgb(255 255 255 / 0%) !important;
+    font-size: 14px;
+    font-family: THICCCBOI,sans-serif !important;
+    color: #a8afbd !important;
+    font-weight: 700 !important;
+    font-size: .65rem !important;
+}
+
+
+
+    </style>
+</head>
+
+<!-- start header Arae -->
+
+<header class="wrapper bg-soft-primary">
+    
+  
+    
+  
+    <nav class="navbar center-nav transparent navbar-expand-lg navbar-light">
+        <div class="container flex-lg-row flex-nowrap align-items-center">
+            <div class="navbar-brand w-100"><a href="index.html"><img src="{{site.url}}/assets/img/logo.png"  alt="" /></a></div>
+            <div class="navbar-collapse offcanvas-nav">
+                <div class="offcanvas-header d-lg-none d-xl-none">
+                    <a href="#"><img src="{{site.url}}/assets/img/logo0w.png" alt="" /></a>
+                    <button type="button" class="btn-close btn-close-white offcanvas-close offcanvas-nav-close" aria-label="Close"></button>
+                </div>
+                
+                <!--<ul class="navbar-nav">
+    <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>-->
+                <!--/.dropdown-menu -->
+                <!--</li>
+    <li class="nav-item ">
+        <a class="nav-link " href="aboutus.html">About</a>
+
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link " href="https://docs.tigase.net/" target="_blank">Documentation</a>
+
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link " href="download.html">Download</a>
+
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link " href="community.html">Community</a>
+
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="developer.html">Developers</a>-->
+                <!--/.dropdown-menu -->
+                <!--</li>
+    <li class="nav-item">
+        <a class="nav-link" href="donate.html">Donate</a>-->
+                <!--/.dropdown-menu -->
+                <!--</li>
+    <li class="nav-item">
+        <a class="nav-link" href="https://tigase.net/" target="_blank">Enterprise</a>-->
+                <!--/.dropdown-menu -->
+                <!--</li>
+    </ul>-->
+                <!-- /.navbar-nav -->
+
+                
+                <ul class="navbar-nav">
+                    {% for item in site.data.samplelist.docs %}
+                    <li class="nav-item"><a class="nav-link" href="{{ item.url }}">{{ item.title }}</a></li>
+                    
+                    {% endfor %}
+                  
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+            <div class="navbar-other w-10 d-flex ms-auto">
+                <ul class="navbar-nav flex-row align-items-center ms-auto" data-sm-skip="true">
+                  
+                    <li class="nav-item dropdown language-select text-uppercase">
+
+                        <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a> 
+                     <ul class="dropdown-menu">
+                            <li class="nav-item"><a class="dropdown-item" href="{{ site.url }}">En</a></li>
+                            <li class="nav-item"><a class="dropdown-item" href="{{ site.url }}/de">De</a></li>
+            
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item"><a class="nav-link" data-toggle="offcanvas-info">
+                        <i class="uil uil-info-circle"></i></a></li>
+                    <li class="nav-item d-lg-none">
+                        <div class="navbar-hamburger"><button class="hamburger animate plain" data-toggle="offcanvas-nav"><span></span></button></div>
+                    </li>
+                </ul>
+                <!-- /.navbar-nav -->
+            </div>
+            <!-- /.navbar-other -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- /.navbar -->
+    <div class="offcanvas-info text-inverse">
+        <button type="button" class="btn-close btn-close-white offcanvas-close offcanvas-info-close" aria-label="Close"></button>
+        <a href="index.html"><img src="{{site.url}}/assets/img/logo0w.png" alt="" /></a>
+        <div class="mt-4 widget">
+            <p style="text-align:justify">Getting started with using XMPP never been easier - pick a project you want to build, and let XMPP safely and robustly store your data.</p>
+        </div>
+        <!-- /.widget -->
+        <div class="widget">
+            <h4 class="widget-title text-white mb-3">Contact Info</h4>
+            <address>4275 Executive Sq.,<br /> Suite 200, La Jolla,<br /> CA 92037 </address>
+            <!--<a href="mailto:info@tigase.net">info@tigase.net</a><br /> <a href="tel:+14159004778">+1 (415) 900-4778</a>-->
+            <!-- /.widget -->
+            <div class="widget"><br />
+
+                <h4 class="widget-title text-white mb-3">Learn More</h4>
+                <ul class="list-unstyled">
+                    <li><a href="index.html">Our Story</a></li>
+                    <li><a href="index.html">Terms of Use</a></li>
+                    <li><a href="index.html">Privacy Policy</a></li>
+                    <li><a href="index.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- /.widget -->
+            <div class="widget">
+                <h4 class="widget-title text-white mb-3">Follow Us</h4>
+                <nav class="nav social social-white">
+                    <a href="https://twitter.com/tigase" target="_blank"><i class="uil uil-twitter"></i></a>
+                    <a href="https://www.facebook.com/tigase" target="_blank"><i class="uil uil-facebook-f"></i></a>
+
+                </nav>
+                <!-- /.social -->
+            </div>
+            <!-- /.widget -->
+        </div>
+        <!-- /.offcanvas-info -->
+        </div>
+</header>
+<!-- /header -->

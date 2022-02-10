@@ -1,0 +1,248 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: Tigase
+    text: Instant Communication, Presence and Messaging
+    text1: We like to make things scalable, in fact we are a little bit obsessed with optimizations.
+   
+
+    sl1:
+     path: assets/img/concept/6.png
+
+    button: Try It For Free
+
+    heading: Instant Communication Server
+
+    text2: Tigase Instant Communication Server is the server software which handles all the real-time communication between people or devices.
+
+    sl2:
+     path: assets/img/icons/search-1.svg
+
+    heading1: Presence
+
+    desc: Presence server keeps track who is online, offline, busy or available. It can also keep track of user's mood, location and activities.
+
+    sl3:
+     path: assets/img/icons/browser.svg
+
+    heading2: Always Online
+
+    desc1: Server allows for people or devices to be always connected and always online. This results in truly real-time communication between all parties.
+
+
+    sl4:
+     path: assets/img/icons/chat-2.svg
+
+    heading3: More than Messaging
+
+    desc2: Tigase is so much more than sending messages, and simple chatting. It allows for rich media messages, sending documents, photos, videos and any files to a user, a group of users or to a subscription channel.
+    
+    sl5:
+     path: assets/img/icons/megaphone.svg
+
+    heading4: Notifications
+
+    desc3: In today's world everybody and everything is always online, until it is not. In this rare cases Tigase offers alternative message delivery methods through Push, Text Messages or Email.
+
+    heading5: Instant Communication Apps
+
+    heading6: Tigase offers Apps for all popular systems and platforms.
+
+
+    desc4: Native platform applications are always better then web based. All applications, we offer, are the working proof that XMPP can be used efficiently on both desktop and mobile platforms. These three libraries are the foundation of our work and offer but there is much more to explore.
+
+    button10: View Client Apps
+  
+
+    sl6:
+     path: assets/img/concept/4.png
+
+    heading7: JaXMPP
+    desc5: JaXMPP stands for 'Java XMPP'.Powerful Java library which we have been developing for many years. Works everywhere where Java works.
+
+    heading8: Martin
+    desc6: XMPP Library in Swift designed for for iOS and MacOS systems. To create native and efficient apps for Apple ecosystem.
+
+    heading9: Halcyon
+    desc7: We believe Kotlin is the future for the efficient software development for different platforms. Build from ground up, powerful library to develop user apps for any system.
+
+    heading10: Instant Communication Libraries
+
+    heading11: Tigase offers libraries to build chat apps and tools for any platform.
+
+    desc8: We use our libraries ourselves to develop our own communication software. Our open source libraries allow to easily build native apps and tools for any platform and environment.
+
+    button1: View More Libraries
+
+    sl7:
+     path: assets/img/concept/2.png
+
+    heading12: Why Choose Tigase?
+
+    heading13: Secure, reliable, and simple solution for instant communication systems.
+
+    button2: Secure
+
+    heading14: Open Source and based on open standards, recognized security protocols and practices such as XMPP, TLS, SASL. Well tested with thousands of automated tests cases. Peer reviewed and tested by independent development teams.
+
+    button3: Reliable
+
+    heading15: Implemented with modern tools and development practices. Peer-reviewed code. Tested under large loads over extended period of time. Known to work without restart for over 3 years on production systems.
+
+    button4: Scalable
+
+    heading16: Supports clustering out of the box. Offers near-linear scalability for typical use-case scenarios. Tested under large load of over 30 million messages per second. Works on production systems with over 10 million users.
+
+    headin17: Easy to Integrate
+
+    heading18:  There are many ways to integrate third-party systems with Tigase Instant Communication Server.
+
+    sl8:
+     path: assets/img/avatars/aa01.png
+
+    heading19: Mobile Optimizations
+
+    heading20: XMPP like many other technologird were designed in pre-mobile era. By design they are intended for desktop use. However, Tigase offers many extensions and customizations dedicated to mobile use in Tigase's server software, libraries and end-user apps.
+
+    sl9:
+     path: assets/img/avatars/aa02.png
+
+    heading21: Message Forwarding
+
+    heading22: XMPP is usually the best option for effective real-time communication. This is for as long as users are connected to the server. However, if they are not, Tigase offers different message forwarding options over Push, Text Messages and Email.
+
+    sl10:
+     path: assets/img/avatars/aa03.png
+
+    heading23: Fast Delivery
+
+    heading24: Tigase software is highly optimized. It does not waste CPU cycles, RAM bytes or network bandwidth. Specifically for mobile and web connections it can sinificantly reduce resources usage. As a result Tigase can deliver messages within unde 1 ms on typical production system.
+
+
+    sl11:
+     path: assets/img/avatars/aa04.png
+
+    heading25: Abuse Protection
+
+    heading26: Internet, nowadays is not a safe place anymore. Network systems are being attacked and abused in many ways. Tigase software offers various automated abuse protection techniques. As a result it allows to run reliable and secure communication systems.
+
+    sl12:
+     path: assets/img/concept/3.png
+    heading27: Tigase Server
+    heading28: Install Tigase Communication Server
+    heading29: 3 easy steps to install Tigase Server. It won't take longer than 10 minutes.
+    list1: Download & Extract
+    list2: Run Script
+    list3: Follow the Web Installation Wizard
+    list4: Done.
+
+    heading30: "Stork IM"
+    heading31: Tigase Android
+    heading32: XMPP Client
+    heading55: Source Code
+
+    heading33: "Beagle IM"
+    heading34: Tigase MacOS
+    heading35: XMPP Client
+    heading56: Source Code
+
+    heading36: "Siskin IM"
+    heading37: Tigase iOS
+    heading38: XMPP Client
+    heading57: Source Code
+
+    heading39: Client Apps
+    heading40: Tigase Open-Source XMPP Client Apps for popular platforms.
+    heading41: Native platform applications are always better then web based. All applications, we offer, are the working proof that XMPP can be used efficiently on both desktop and mobile platforms.
+
+    button5: View All Github Repositories
+
+    sl13:
+     path: assets/img/photos/community.png
+
+    heading42: About Tigase
+    heading43: Over 4,200 Tigase servers running worldwide...
+    heading44: Tigase is an open source project started by Artur Hefczyc in October 2004 to develop an XMPP server implementation in Java.
+    heading48: Our News
+    heading49: Here are the latest company news from our blog that gotthe most attention.
+    button6: Read more
+
+    sl14:
+     path: assets/img/brands/img01.png
+
+    sl15:
+     path: assets/img/brands/img02.png
+
+    sl16:
+     path: assets/img/brands/img03.png
+
+    sl17:
+     path: assets/img/brands/img04.png
+
+    sl18:
+     path: assets/img/brands/img05.png
+
+    sl19:
+     path: assets/img/brands/img06.png
+     
+    sl20:
+     path: assets/img/brands/img07.png
+       
+    sl21:
+     path: assets/img/brands/img08.png
+       
+    sl22:
+     path: assets/img/brands/img09.png
+       
+    sl23:
+     path: assets/img/brands/img10.png
+     
+    sl24:
+     path: assets/img/brands/img11.png
+       
+    sl25:
+     path: assets/img/brands/img12.png
+
+    sl26:
+     path: assets/img/brands/img13.png
+
+    sl27:
+     path: assets/img/brands/img14.png
+
+    sl28:
+     path: assets/img/brands/img15.png
+
+    sl29:
+     path: assets/img/brands/img16.png
+
+    sl30:
+     path: assets/img/brands/img17.png
+
+    sl31:
+     path: assets/img/brands/img18.png
+
+    sl32:
+     path: assets/img/brands/img19.png
+
+    sl33:
+     path: assets/img/brands/kiki.svg
+
+
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
