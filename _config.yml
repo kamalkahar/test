@@ -22,7 +22,9 @@ title: Real Time Communication, Presence and Messaging Software Provider
 email: #your-email@example.com
 #description: "Tigase is an open source project started by Artur Hefczyc in October 2004 to develop an XMPP server implementation in Java. Initially the goal was to develop a fully compliant XMPP server with backward compatibility with an informal XMPP specification."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://tigase.github.io/os-website/" # the base hostname & protocol for your site, e.g. http://example.com
+# url: "https://tigase.github.io/os-website/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://kamalkahar.github.io/test/" # the base hostname & protocol for your site, e.g. http://example.com
+
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
